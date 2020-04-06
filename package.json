@@ -1,0 +1,16 @@
+{
+  "name": "fastro-cli",
+  "version": "0.1.0",
+  "description": "fastro-web git cloner",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "fastro": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ynwd",
+  "license": "ISC",
+  "dependencies": {}
+}
