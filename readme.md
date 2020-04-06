@@ -1,6 +1,6 @@
 # fastro-cli
 
-`fastro-web` git cloner
+clone `fastro-web` template, install dependencies & build all typescript files
 
 ## Install
 ```
