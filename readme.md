@@ -8,6 +8,11 @@ npm i fastro-cli -g
 ```
 
 ## Usage
+Clone template, create .env, install deps & build all typescript files:
 ```
-fastro
+fastro init
+```
+Get fastro-cli version:
+```
+fastro --version
 ```
