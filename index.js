@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const path = require('path');
-const{ execSync } = require('child_process');
+const { execSync } = require('child_process');
 const cwd = process.cwd();
 const gitCommand = `git clone git@github.com:fastrodev/fastro-web.git ${cwd}`;
 execSync(gitCommand, {stdio: [0, 1, 2], cwd});
