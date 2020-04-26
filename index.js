@@ -11,7 +11,7 @@ Usage:
 `
 
 const init = () => {
-  const gitCommand = `git clone git@github.com:fastrodev/fastro-web.git ${cwd}`;
+  const gitCommand = `git clone git@github.com:fpkg/fastro-web.git ${cwd}`;
   const envCommand = `
   echo 'APP_PORT=8080' > ${cwd}/.env
   echo 'DB_HOST=localhost' >> ${cwd}/.env
