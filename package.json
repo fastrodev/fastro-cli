@@ -1,6 +1,6 @@
 {
   "name": "fastro-cli",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "fastro-web git cloner",
   "main": "index.js",
   "preferGlobal": true,
