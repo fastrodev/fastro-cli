@@ -13,7 +13,8 @@ Usage:
 const init = () => {
   const gitCommand = `git clone git@github.com:fpkg/fastro-web.git ${cwd}`;
   const envCommand = `
-  echo 'APP_PORT=8080' > ${cwd}/.env
+  echo 'APP_HOST=0.0.0.0' > ${cwd}/.env
+  echo 'APP_PORT=8080' >> ${cwd}/.env
   echo 'DB_HOST=localhost' >> ${cwd}/.env
   echo 'DB_PORT=3306' >> ${cwd}/.env
   echo 'DB_USER=root' >> ${cwd}/.env
