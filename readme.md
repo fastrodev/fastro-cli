@@ -16,3 +16,10 @@ Get fastro-cli version:
 ```
 fastro --version
 ```
+
+## Acknowledgements
+This project is kindly sponsored by:
+- [MID](https://member.id/)
+
+## License
+- Licensed under [MIT](https://github.com/fpkg/fastro-cli/blob/master/LICENSE).
